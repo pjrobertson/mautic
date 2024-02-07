@@ -1515,6 +1515,7 @@ class MailHelper
             } else {
                 $headers['List-Unsubscribe'] = $listUnsubscribeHeader;
             }
+            $headers['List-Unsubscribe-Post'] = 'List-Unsubscribe=One-Click';
         }
 
         return $headers;
